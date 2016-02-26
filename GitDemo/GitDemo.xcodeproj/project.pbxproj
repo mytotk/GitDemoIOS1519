@@ -13,6 +13,7 @@
 		BC3DE8911C80227000ECCA1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3DE88F1C80227000ECCA1F /* Main.storyboard */; };
 		BC3DE8931C80227000ECCA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3DE8921C80227000ECCA1F /* Assets.xcassets */; };
 		BC3DE8961C80227000ECCA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3DE8941C80227000ECCA1F /* LaunchScreen.storyboard */; };
+		BC3DE8A41C8026EA00ECCA1F /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3DE8A31C8026EA00ECCA1F /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BC3DE8921C80227000ECCA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC3DE8951C80227000ECCA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC3DE8971C80227000ECCA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3DE8A21C8026EA00ECCA1F /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		BC3DE8A31C8026EA00ECCA1F /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		BC3DE8851C80226F00ECCA1F /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC3DE8A11C8026DD00ECCA1F /* B */,
 				BC3DE8891C80227000ECCA1F /* AppDelegate.h */,
 				BC3DE88A1C80227000ECCA1F /* AppDelegate.m */,
 				BC3DE88C1C80227000ECCA1F /* ViewController.h */,
@@ -77,6 +81,15 @@
 				BC3DE8871C80227000ECCA1F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC3DE8A11C8026DD00ECCA1F /* B */ = {
+			isa = PBXGroup;
+			children = (
+				BC3DE8A21C8026EA00ECCA1F /* Cat.h */,
+				BC3DE8A31C8026EA00ECCA1F /* Cat.m */,
+			);
+			name = B;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3DE8A41C8026EA00ECCA1F /* Cat.m in Sources */,
 				BC3DE88E1C80227000ECCA1F /* ViewController.m in Sources */,
 				BC3DE88B1C80227000ECCA1F /* AppDelegate.m in Sources */,
 				BC3DE8881C80227000ECCA1F /* main.m in Sources */,
@@ -298,6 +312,7 @@
 				BC3DE89C1C80227000ECCA1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
